@@ -24,9 +24,9 @@ if(isset($_POST['enviar'])){
     
     <form action="index.php" method="post">
     <label>Nome:</label>
-    <input type="input" name="nome" id="nome" placeholder="Digite seu nome"><br><br>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br><br>
     <label>Email:</label>
-    <input type="input" name="email" id="email" placeholder="Digite seu email"><br><br>
+    <input type="text" name="email" id="email" placeholder="Digite seu email"><br><br>
     <input type="submit" name="enviar" placeholder="enviar">
     </form>
 </body>
